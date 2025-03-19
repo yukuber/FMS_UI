@@ -1,0 +1,185 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:FMS_UI.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Width="350" Height="500"
+        Background="Black"
+        x:Class="FMS_UI.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="FMS_UI">
+
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
+             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock TextAlignment="Center" Text="FMS 1 IDENT"></TextBlock>
+        </Border>
+
+        <!-- Данные таблицы -->
+        <Border Grid.Row="1" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1"/>
+        <Border Grid.Row="1" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock TextAlignment="Right" Text="NAV DB ACTIVATE" />
+        </Border>
+        
+        <Border Grid.Row="2" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1"/>
+        <Border Grid.Row="2" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock TextAlignment="Right" Foreground="Green" Text="Данные 2-2" />
+        </Border>
+        
+        <Border Grid.Row="3" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1"/>
+        <Border Grid.Row="3" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock TextAlignment="Right" Text="NAV DB SECOND" />
+        </Border>
+        
+        <Border Grid.Row="4" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1"/>
+        <Border Grid.Row="4" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock TextAlignment="Right" Foreground="Green" Text="Данные 4-2" />
+        </Border>
+        
+        <Border Grid.Row="5" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock Text="OP PROGRAM" />
+        </Border>
+        <Border Grid.Row="5" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock TextAlignment="Right" Text="CFG NO" />
+        </Border>
+        
+        <Border Grid.Row="6" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock Foreground="Green" Text="Данные 6-1" />
+        </Border>
+        <Border Grid.Row="6" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock TextAlignment="Right" Foreground="Green" Text="Данные 6-2" />
+        </Border>
+        
+        <Border Grid.Row="7" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock Text="CO RTES DB DATE" />
+        </Border>
+        <Border Grid.Row="7" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1"/>
+        
+        <Border Grid.Row="8" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock Foreground="Green" Text="CURRENT DATE-TIME" />
+        </Border>
+        <Border Grid.Row="8" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1"/>
+        
+        <Border Grid.Row="9" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock Text="USER DB DATE" />
+        </Border>
+        <Border Grid.Row="9" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1"/>
+        
+        <Border Grid.Row="10" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock Foreground="Green" Text="Данные 10-1" />
+        </Border>
+        <Border Grid.Row="10" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1"/>
+        
+        <Border Grid.Row="11" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock Text="AIRCRAFT" />
+        </Border>
+        <Border Grid.Row="11" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock TextAlignment="Right" Text="ENGINES" />
+        </Border>
+        
+        <Border Grid.Row="12" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock Foreground="Green" Text="Данные 12-1" />
+        </Border>
+        <Border Grid.Row="12" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock TextAlignment="Right" Foreground="Green" Text="Данные 12-2" />
+        </Border>
+        
+        <Border Grid.Row="13" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock Text="NAVGAR MODEL" />
+        </Border>
+        <Border Grid.Row="13" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock TextAlignment="Right" Text="POLICY" />
+        </Border>
+        
+        <Border Grid.Row="14" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock Foreground="Green" Text="Данные 14-1" />
+        </Border>
+        <Border Grid.Row="14" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock TextAlignment="Right" Foreground="Green" Text="Данные 14-2" />
+        </Border>
+        
+        <Border Grid.Row="15" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock Text="REG NBR" />
+        </Border>
+        <Border Grid.Row="15" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1"/>
+        
+        <Border Grid.Row="16" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock Foreground="Green" Text="Данные 16-1" />
+        </Border>
+        <Border Grid.Row="16" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1"/>
+        
+        <Border Grid.Row="17" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock Text="DISPLAY" />
+        </Border>
+        <Border Grid.Row="17" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock TextAlignment="Right" Text="DECEL FACTOR" />
+        </Border>
+        
+        <Border Grid.Row="18" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock Foreground="Green" Text="Данные 18-1" />
+        </Border>
+        <Border Grid.Row="18" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock TextAlignment="Right" Foreground="Green" Text="Данные 18-2" />
+        </Border>
+        
+        <Border Grid.Row="19" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock Text="FMS MODE" />
+        </Border>
+        <Border Grid.Row="19" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock TextAlignment="Right" Text="F-F FACTOR" />
+        </Border>
+        <Border Grid.Row="20" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock Foreground="Green" Text="Данные 20-1" />
+        </Border>
+        <Border Grid.Row="20" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock TextAlignment="Right" Foreground="Green" Text="Данные 20-2" />
+        </Border>
+        
+        <Border Grid.Row="21" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1"/>
+        <Border Grid.Row="21" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock TextAlignment="Right" Text="POS INIT ->" />
+        </Border>
+        <Border Grid.Row="22" Grid.Column="0" Grid.ColumnSpan="2" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock TextAlignment="Center" Text="MESSAGES LINE"></TextBlock>
+        </Border>
+        <Border Grid.Row="23" Grid.Column="0" Grid.ColumnSpan="2" BorderBrush="Yellow" BorderThickness="1">
+            <TextBlock TextAlignment="Center" Text="SCRATCHPAD LINE"></TextBlock>
+        </Border>
+    </Grid>
+</Window>
