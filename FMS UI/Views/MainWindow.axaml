@@ -3,7 +3,7 @@
         xmlns:vm="using:FMS_UI.ViewModels"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        Width="350" Height="500"
+        Width="400" Height="600"
         Background="Black"
         x:Class="FMS_UI.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
@@ -21,30 +21,30 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
         <Border Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" BorderBrush="Yellow" BorderThickness="1">
@@ -59,7 +59,16 @@
         
         <Border Grid.Row="2" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1"/>
         <Border Grid.Row="2" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1">
-            <TextBlock TextAlignment="Right" Foreground="Green" Text="Данные 2-2" />
+            <!-- <TextBlock x:Name="TextBlockData2R" Foreground="Lime" Text="▢▢▢" /> -->
+            
+            <ComboBox x:Name="ComboBoxActDB"
+                      ItemsSource="{Binding MyStringArray}"
+                      SelectedItem="{Binding SelectedString}"
+                      Width="200"
+                      HorizontalAlignment="Left"
+                      MaxDropDownHeight="200"
+                      Foreground="Lime"/>
+            
         </Border>
         
         <Border Grid.Row="3" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1"/>
@@ -69,7 +78,14 @@
         
         <Border Grid.Row="4" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1"/>
         <Border Grid.Row="4" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1">
-            <TextBlock TextAlignment="Right" Foreground="Green" Text="Данные 4-2" />
+            <ComboBox x:Name="ComboBox2"
+                      ItemsSource="{Binding MyStringArray}"
+                      SelectedItem="{Binding SelectedString2}"
+                      Width="200"
+                      HorizontalAlignment="Left"
+                      SelectedIndex="1" 
+                      MaxDropDownHeight="200"
+                      Foreground="Lime" />
         </Border>
         
         <Border Grid.Row="5" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1">
@@ -80,10 +96,13 @@
         </Border>
         
         <Border Grid.Row="6" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1">
-            <TextBlock Foreground="Green" Text="Данные 6-1" />
+            <TextBlock x:Name="TextBlockData6L" Foreground="Lime" Text="▢▢▢" />
+            <!-- <TextBlock Text="{Binding AdditionalData}" -->
+            <!--            Foreground="DarkGreen" -->
+            <!--            TextWrapping="Wrap"/> -->
         </Border>
         <Border Grid.Row="6" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1">
-            <TextBlock TextAlignment="Right" Foreground="Green" Text="Данные 6-2" />
+            <TextBlock x:Name="TextBlockData6R" TextAlignment="Right" Foreground="Lime" Text="▢▢▢" />
         </Border>
         
         <Border Grid.Row="7" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1">
@@ -92,7 +111,7 @@
         <Border Grid.Row="7" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1"/>
         
         <Border Grid.Row="8" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1">
-            <TextBlock Foreground="Green" Text="CURRENT DATE-TIME" />
+            <TextBlock x:Name="TextBlockDBTime" Foreground="Lime" Text="CURRENT DB DATE-TIME" />
         </Border>
         <Border Grid.Row="8" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1"/>
         
@@ -102,7 +121,7 @@
         <Border Grid.Row="9" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1"/>
         
         <Border Grid.Row="10" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1">
-            <TextBlock Foreground="Green" Text="Данные 10-1" />
+            <TextBlock x:Name="TextBlockTimestamp" Foreground="Lime" Text="▢▢▢" />
         </Border>
         <Border Grid.Row="10" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1"/>
         
@@ -114,10 +133,10 @@
         </Border>
         
         <Border Grid.Row="12" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1">
-            <TextBlock Foreground="Green" Text="Данные 12-1" />
+            <TextBlock x:Name="TextBlockData12L" Foreground="Lime" Text="▢▢▢" />
         </Border>
         <Border Grid.Row="12" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1">
-            <TextBlock TextAlignment="Right" Foreground="Green" Text="Данные 12-2" />
+            <TextBlock x:Name="TextBlockData12R" TextAlignment="Right" Foreground="Lime" Text="▢▢▢" />
         </Border>
         
         <Border Grid.Row="13" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1">
@@ -128,10 +147,10 @@
         </Border>
         
         <Border Grid.Row="14" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1">
-            <TextBlock Foreground="Green" Text="Данные 14-1" />
+            <TextBlock x:Name="TextBlockData14L" Foreground="Lime" Text="▢▢▢" />
         </Border>
         <Border Grid.Row="14" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1">
-            <TextBlock TextAlignment="Right" Foreground="Green" Text="Данные 14-2" />
+            <TextBlock x:Name="TextBlockData14R" TextAlignment="Right" Foreground="Lime" Text="▢▢▢" />
         </Border>
         
         <Border Grid.Row="15" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1">
@@ -140,22 +159,22 @@
         <Border Grid.Row="15" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1"/>
         
         <Border Grid.Row="16" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1">
-            <TextBlock Foreground="Green" Text="Данные 16-1" />
+            <TextBlock x:Name="TextBlockData16L" Foreground="Lime" Text="▢▢▢" />
         </Border>
         <Border Grid.Row="16" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1"/>
         
         <Border Grid.Row="17" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1">
-            <TextBlock Text="DISPLAY" />
+            <TextBlock Text="MODIFICATION MODE" />
         </Border>
         <Border Grid.Row="17" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1">
             <TextBlock TextAlignment="Right" Text="DECEL FACTOR" />
         </Border>
         
         <Border Grid.Row="18" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1">
-            <TextBlock Foreground="Green" Text="Данные 18-1" />
+            <TextBlock x:Name="TextBlockMode" Background="Aqua" Text="MOD" />
         </Border>
         <Border Grid.Row="18" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1">
-            <TextBlock TextAlignment="Right" Foreground="Green" Text="Данные 18-2" />
+            <TextBlock x:Name="TextBlockDecelFactor" TextAlignment="Right" Foreground="Lime" Text="+0.0%" />
         </Border>
         
         <Border Grid.Row="19" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1">
@@ -165,21 +184,21 @@
             <TextBlock TextAlignment="Right" Text="F-F FACTOR" />
         </Border>
         <Border Grid.Row="20" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1">
-            <TextBlock Foreground="Green" Text="Данные 20-1" />
+            <TextBlock x:Name="TextBlockSync" Foreground="Lime" Text="◀ SYNC" />
         </Border>
         <Border Grid.Row="20" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1">
-            <TextBlock TextAlignment="Right" Foreground="Green" Text="Данные 20-2" />
+            <TextBlock x:Name="TextBlockFFactor" TextAlignment="Right" Foreground="Lime" Text="+0.0%" />
         </Border>
         
         <Border Grid.Row="21" Grid.Column="0" BorderBrush="Yellow" BorderThickness="1"/>
         <Border Grid.Row="21" Grid.Column="1" BorderBrush="Yellow" BorderThickness="1">
-            <TextBlock TextAlignment="Right" Text="POS INIT ->" />
+            <TextBlock x:Name="TextBlockPosInit" TextAlignment="Right" Text="POS INIT ▶" />
         </Border>
         <Border Grid.Row="22" Grid.Column="0" Grid.ColumnSpan="2" BorderBrush="Yellow" BorderThickness="1">
-            <TextBlock TextAlignment="Center" Text="MESSAGES LINE"></TextBlock>
+            <TextBlock x:Name="TextBlockMessages" TextAlignment="Center" Text="MESSAGES LINE"></TextBlock>
         </Border>
         <Border Grid.Row="23" Grid.Column="0" Grid.ColumnSpan="2" BorderBrush="Yellow" BorderThickness="1">
-            <TextBlock TextAlignment="Center" Text="SCRATCHPAD LINE"></TextBlock>
+            <TextBox  x:Name="TextBoxMessages" TextAlignment="Center" Text="SCRATCHPAD LINE"></TextBox>
         </Border>
     </Grid>
 </Window>

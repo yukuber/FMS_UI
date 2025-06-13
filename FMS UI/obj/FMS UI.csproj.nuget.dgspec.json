@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kubas\\RiderProjects\\FMS UI\\FMS UI\\FMS UI.csproj": {}
+    "D:\\Юра\\школа\\projects\\10 класс\\FMS UI alive ver\\FMS UI\\FMS UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kubas\\RiderProjects\\FMS UI\\FMS UI\\FMS UI.csproj": {
+    "D:\\Юра\\школа\\projects\\10 класс\\FMS UI alive ver\\FMS UI\\FMS UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kubas\\RiderProjects\\FMS UI\\FMS UI\\FMS UI.csproj",
+        "projectUniqueName": "D:\\Юра\\школа\\projects\\10 класс\\FMS UI alive ver\\FMS UI\\FMS UI.csproj",
         "projectName": "FMS UI",
-        "projectPath": "C:\\Users\\kubas\\RiderProjects\\FMS UI\\FMS UI\\FMS UI.csproj",
+        "projectPath": "D:\\Юра\\школа\\projects\\10 класс\\FMS UI alive ver\\FMS UI\\FMS UI.csproj",
         "packagesPath": "C:\\Users\\kubas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kubas\\RiderProjects\\FMS UI\\FMS UI\\obj\\",
+        "outputPath": "D:\\Юра\\школа\\projects\\10 класс\\FMS UI alive ver\\FMS UI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kubas\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -47,11 +47,15 @@
               "target": "Package",
               "version": "[11.0.10, )"
             },
-            "Avalonia.Desktop": {
+            "Avalonia.Controls.ColorPicker": {
               "target": "Package",
               "version": "[11.0.10, )"
             },
-            "Avalonia.Diagnostics": {
+            "Avalonia.Controls.DataGrid": {
+              "target": "Package",
+              "version": "[11.0.10, )"
+            },
+            "Avalonia.Desktop": {
               "target": "Package",
               "version": "[11.0.10, )"
             },
@@ -84,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

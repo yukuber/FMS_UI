@@ -7,7 +7,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d37f4f2d-8ca8-4d92-a664-b18d4c8e9834" name="Changes" comment="" />
+    <list default="true" id="d37f4f2d-8ca8-4d92-a664-b18d4c8e9834" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FMS UI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FMS UI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/App.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/App.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/App.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/App.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/FMS UI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/FMS UI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/ViewModels/MainWindowViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/Views/MainWindow.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/Views/MainWindow.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/Views/MainWindow.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/bin/Debug/net8.0/FMS UI.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/bin/Debug/net8.0/FMS UI.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/bin/Debug/net8.0/FMS UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/bin/Debug/net8.0/FMS UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/bin/Debug/net8.0/FMS UI.exe" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/bin/Debug/net8.0/FMS UI.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/bin/Debug/net8.0/FMS UI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/bin/Debug/net8.0/FMS UI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/Avalonia/Resources.Inputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/Avalonia/Resources.Inputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/Avalonia/original.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/Avalonia/original.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/Avalonia/original.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/Avalonia/original.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/Avalonia/original.ref.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/Avalonia/original.ref.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/Avalonia/references" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/Avalonia/references" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/Avalonia/resources" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/Avalonia/resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/FMS UI.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/FMS UI.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/FMS UI.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/FMS UI.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/FMS UI.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/FMS UI.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/FMS UI.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/FMS UI.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/FMS UI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/FMS UI.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/FMS UI.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/FMS UI.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/FMS UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/FMS UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/FMS UI.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/FMS UI.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/FMS UI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/FMS UI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/ref/FMS UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/ref/FMS UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/refint/FMS UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/obj/Debug/net8.0/refint/FMS UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/obj/FMS UI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/obj/FMS UI.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMS UI/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/FMS UI/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +51,32 @@
   </component>
   <component name="DpaMonitoringSettings">
     <option name="autoShow" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;yukuber&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/yukuber/FMS_UI.git&quot;,
+    &quot;accountId&quot;: &quot;9ce58e04-01c8-4718-a534-46158ed97ee9&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/409cbfc595ab24b2b1e4ef5d337095fd49bee59162968f6af6a45fb1feb9f287/StyledElement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/42fe227087c1fad28afa532b2c5a1f5ebe143c9914b105468d7cc603cdd66be/Number.Parsing.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/59109b68aa8966a8b4c17bb8642684239e9598dc1f117d294c355534a932786/CastHelpers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c99a63bcf3d2a18c20ee19e58ac875ab1edf2a147c8b92ffeed185ab8a44b4/Single.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f21da65c538965becaa88f01977dc549cd9e47d5b7c41263e55fff53973ad3/Visual.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f979ccbcfb1b1ae41a727180873ed386959f76f4724534a958fae967aa6e/ComboBox.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -25,19 +87,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Project.FMS UI.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Project.FMS UI.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "XThreadsFramesViewSplitterKey": "0.8037975",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "C#"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="FMS UI" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -69,6 +138,16 @@
       <workItem from="1741668066633" duration="4822000" />
       <workItem from="1742204862972" duration="24000" />
       <workItem from="1742288706276" duration="3028000" />
+      <workItem from="1748115017055" duration="3127000" />
+      <workItem from="1748457501246" duration="8268000" />
+      <workItem from="1748512768844" duration="683000" />
+      <workItem from="1748591652157" duration="678000" />
+      <workItem from="1748864574397" duration="976000" />
+      <workItem from="1748888019971" duration="7929000" />
+      <workItem from="1749020834383" duration="5010000" />
+      <workItem from="1749196126218" duration="5258000" />
+      <workItem from="1749463123943" duration="3182000" />
+      <workItem from="1749580325175" duration="29369000" />
     </task>
     <servers />
   </component>
@@ -78,5 +157,12 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Type#Avalonia.Controls.TextBox" memberName="Text" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
