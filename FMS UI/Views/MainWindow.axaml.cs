@@ -27,7 +27,7 @@ public partial class MainWindow : Window
     {
         
         ComboBoxActDB.BorderBrush = Brushes.Aqua;
-        string filePath = "D:\\Юра\\школа\\projects\\10 класс\\FMS UI alive ver\\FMS UI\\" + filedb + ".txt";
+        string filePath = filedb + ".txt";
         string content = File.ReadAllText(filePath);
         string[] lines = content.Split(Environment.NewLine);
         TextBlockData6L.Text = lines[0]; //OP PROGRAM
@@ -39,7 +39,7 @@ public partial class MainWindow : Window
     private void HandleComboBox2Changed(string filedb2)
     {
         ComboBox2.BorderBrush = Brushes.Aqua;
-        string file2Path = "D:\\Юра\\школа\\projects\\10 класс\\FMS UI alive ver\\FMS UI\\" + filedb2 + ".txt";
+        string file2Path = filedb2 + ".txt";
         string content2 = File.ReadAllText(file2Path);
         string[] lines2 = content2.Split();
         
@@ -69,7 +69,7 @@ public partial class MainWindow : Window
 
         TextBlockPosInit.PointerPressed += TextBlockSelected_PointerPressed;
 
-        string filePath = "D:\\Юра\\школа\\projects\\10 класс\\FMS UI alive ver\\FMS UI\\AircraftConfig.txt";
+        string filePath = "AircraftConfig.txt";
         string content = File.ReadAllText(filePath);
         string[] lines = content.Split(Environment.NewLine);
         TextBlockData12L.Text = lines[0]; //AIRCRAFT
@@ -77,7 +77,7 @@ public partial class MainWindow : Window
         TextBlockData14L.Text = lines[2]; //NAVGAR MODEL
         TextBlockData14R.Text = lines[3]; //POLICY
         TextBlockData16L.Text = lines[4]; //REG NBR
-        string cachePath = "D:\\Юра\\школа\\projects\\10 класс\\FMS UI alive ver\\FMS UI\\cache.txt";
+        string cachePath = "cache.txt";
         string cache = File.ReadAllText(cachePath);
         string[] cacheLines = cache.Split(Environment.NewLine);
         TextBlockSync.Text = cacheLines[2];
@@ -224,13 +224,13 @@ public partial class MainWindow : Window
     
     private void TextBlockPosInit_PointerPressed(object sender, PointerPressedEventArgs e)
     {
-        string DBPath = "D:\\Юра\\школа\\projects\\10 класс\\FMS UI alive ver\\FMS UI\\" + ComboBoxActDB.SelectedItem + ".txt";
+        string DBPath = ComboBoxActDB.SelectedItem + ".txt";
         string DBupd = "";
         DBupd +=TextBlockData6L.Text + Environment.NewLine;
         DBupd += TextBlockData6R.Text + Environment.NewLine;
         DBupd+= TextBlockDBTime.Text;
         
-        string ConfigPath = "D:\\Юра\\школа\\projects\\10 класс\\FMS UI alive ver\\FMS UI\\AircraftConfig.txt";
+        string ConfigPath = "AircraftConfig.txt";
         string content = "";
         content += TextBlockData12L.Text + Environment.NewLine; //AIRCRAFT
         content += TextBlockData12R.Text + Environment.NewLine; //ENGINES
@@ -238,7 +238,7 @@ public partial class MainWindow : Window
         content += TextBlockData14R.Text + Environment.NewLine; //POLICY
         content += TextBlockData16L.Text; //REG NBR
         
-        string cachePath = "D:\\Юра\\школа\\projects\\10 класс\\FMS UI alive ver\\FMS UI\\cache.txt";
+        string cachePath = "cache.txt";
         string cache = "";
         cache += ComboBoxActDB.SelectedIndex + Environment.NewLine;
         cache += ComboBox2.SelectedIndex + Environment.NewLine;

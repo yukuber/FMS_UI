@@ -1,30 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Юра\\школа\\projects\\10 класс\\FMS UI alive ver\\FMS UI\\FMS UI.csproj": {}
+    "/home/kubasovjua-1/Документы/FMS_UI/FMS UI/FMS UI.csproj": {}
   },
   "projects": {
-    "D:\\Юра\\школа\\projects\\10 класс\\FMS UI alive ver\\FMS UI\\FMS UI.csproj": {
+    "/home/kubasovjua-1/Документы/FMS_UI/FMS UI/FMS UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Юра\\школа\\projects\\10 класс\\FMS UI alive ver\\FMS UI\\FMS UI.csproj",
+        "projectUniqueName": "/home/kubasovjua-1/Документы/FMS_UI/FMS UI/FMS UI.csproj",
         "projectName": "FMS UI",
-        "projectPath": "D:\\Юра\\школа\\projects\\10 класс\\FMS UI alive ver\\FMS UI\\FMS UI.csproj",
-        "packagesPath": "C:\\Users\\kubas\\.nuget\\packages\\",
-        "outputPath": "D:\\Юра\\школа\\projects\\10 класс\\FMS UI alive ver\\FMS UI\\obj\\",
+        "projectPath": "/home/kubasovjua-1/Документы/FMS_UI/FMS UI/FMS UI.csproj",
+        "packagesPath": "/home/kubasovjua-1/.nuget/packages/",
+        "outputPath": "/home/kubasovjua-1/Документы/FMS_UI/FMS UI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kubas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/kubasovjua-1/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
+          "/usr/lib64/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -37,11 +38,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Avalonia": {
               "target": "Package",
@@ -70,6 +72,12 @@
             "Avalonia.Themes.Fluent": {
               "target": "Package",
               "version": "[11.0.10, )"
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )",
+              "autoReferenced": true
             }
           },
           "imports": [
@@ -83,12 +91,31 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[9.0.3, 9.0.3]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[9.0.3, 9.0.3]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[9.0.3, 9.0.3]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/9.0.104/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
         }
       }
     }

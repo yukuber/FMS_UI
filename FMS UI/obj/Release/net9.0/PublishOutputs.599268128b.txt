@@ -1,0 +1,55 @@
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/FMS UI
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/FMS UI.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/FMS UI.deps.json
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/FMS UI.runtimeconfig.json
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/FMS UI.pdb
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/Avalonia.Base.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/Avalonia.Controls.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/Avalonia.DesignerSupport.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/Avalonia.Dialogs.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/Avalonia.Markup.Xaml.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/Avalonia.Markup.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/Avalonia.Metal.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/Avalonia.MicroCom.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/Avalonia.OpenGL.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/Avalonia.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/Avalonia.Controls.ColorPicker.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/Avalonia.Controls.DataGrid.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/Avalonia.Desktop.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/Avalonia.Fonts.Inter.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/Avalonia.FreeDesktop.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/Avalonia.Native.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/Avalonia.ReactiveUI.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/Avalonia.Remote.Protocol.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/Avalonia.Skia.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/Avalonia.Themes.Fluent.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/Avalonia.Win32.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/Avalonia.X11.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/DynamicData.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/HarfBuzzSharp.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/MicroCom.Runtime.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/ReactiveUI.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/SkiaSharp.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/Splat.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/System.Reactive.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/Tmds.DBus.Protocol.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/runtimes/win-arm64/native/av_libglesv2.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/runtimes/win-x64/native/av_libglesv2.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/runtimes/win-x86/native/av_libglesv2.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/runtimes/osx/native/libAvaloniaNative.dylib
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/runtimes/linux-arm/native/libHarfBuzzSharp.so
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/runtimes/linux-arm64/native/libHarfBuzzSharp.so
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/runtimes/linux-musl-x64/native/libHarfBuzzSharp.so
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/runtimes/linux-x64/native/libHarfBuzzSharp.so
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/runtimes/osx/native/libHarfBuzzSharp.dylib
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/runtimes/win-arm64/native/libHarfBuzzSharp.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/runtimes/win-x64/native/libHarfBuzzSharp.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/runtimes/win-x86/native/libHarfBuzzSharp.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/runtimes/linux-arm/native/libSkiaSharp.so
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/runtimes/linux-arm64/native/libSkiaSharp.so
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/runtimes/linux-musl-x64/native/libSkiaSharp.so
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/runtimes/linux-x64/native/libSkiaSharp.so
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/runtimes/osx/native/libSkiaSharp.dylib
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/runtimes/win-arm64/native/libSkiaSharp.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/runtimes/win-x64/native/libSkiaSharp.dll
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/publish/runtimes/win-x86/native/libSkiaSharp.dll

@@ -45,7 +45,7 @@ public class MainWindowViewModel
     // Конструктор ViewModel (можно использовать для инициализации)
     public MainWindowViewModel() 
     {
-        string cachePath = "D:\\Юра\\школа\\projects\\10 класс\\FMS UI alive ver\\FMS UI\\cache.txt";
+        string cachePath = "cache.txt";
         string cache = File.ReadAllText(cachePath);
         
         string[] cacheLines = cache.Split(Environment.NewLine);
