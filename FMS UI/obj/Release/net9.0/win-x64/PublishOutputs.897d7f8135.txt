@@ -1,0 +1,2 @@
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/win-x64/publish/FMS UI.pdb
+/home/kubasovjua-1/Документы/FMS_UI/FMS UI/bin/Release/net9.0/win-x64/publish/FMS UI.exe

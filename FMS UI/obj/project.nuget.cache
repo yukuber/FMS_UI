@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "US/JZh+WBn4=",
+  "dgSpecHash": "hdLbIloIiEk=",
   "success": true,
   "projectFilePath": "/home/kubasovjua-1/Документы/FMS_UI/FMS UI/FMS UI.csproj",
   "expectedPackageFiles": [
@@ -39,9 +39,9 @@
     "/home/kubasovjua-1/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/home/kubasovjua-1/.nuget/packages/system.reactive/5.0.0/system.reactive.5.0.0.nupkg.sha512",
     "/home/kubasovjua-1/.nuget/packages/tmds.dbus.protocol/0.15.0/tmds.dbus.protocol.0.15.0.nupkg.sha512",
-    "/home/kubasovjua-1/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/9.0.3/microsoft.netcore.app.runtime.linux-x64.9.0.3.nupkg.sha512",
-    "/home/kubasovjua-1/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/9.0.3/microsoft.aspnetcore.app.runtime.linux-x64.9.0.3.nupkg.sha512",
-    "/home/kubasovjua-1/.nuget/packages/microsoft.netcore.app.host.linux-x64/9.0.3/microsoft.netcore.app.host.linux-x64.9.0.3.nupkg.sha512"
+    "/home/kubasovjua-1/.nuget/packages/microsoft.netcore.app.runtime.win-x64/9.0.3/microsoft.netcore.app.runtime.win-x64.9.0.3.nupkg.sha512",
+    "/home/kubasovjua-1/.nuget/packages/microsoft.aspnetcore.app.runtime.win-x64/9.0.3/microsoft.aspnetcore.app.runtime.win-x64.9.0.3.nupkg.sha512",
+    "/home/kubasovjua-1/.nuget/packages/microsoft.netcore.app.host.win-x64/9.0.3/microsoft.netcore.app.host.win-x64.9.0.3.nupkg.sha512"
   ],
   "logs": []
 }
